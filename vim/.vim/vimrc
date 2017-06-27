@@ -1,0 +1,11 @@
+set nocompatible
+
+call plug#begin('~/.vim/plugged')
+	Plug 'scrooloose/nerdtree'
+	Plug 'vimwiki/vimwiki'
+	Plug 'morhetz/gruvbox'
+	Plug 'vim-pandoc/vim-pandoc'
+call plug#end()
+
+colorscheme gruvbox
+set background=dark
