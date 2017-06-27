@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 
-bspc monitor -d web term code music irssi
+bspc monitor -d web term code videos games music irssi
 
 bspc config border_width         3
 bspc config window_gap          24
@@ -18,7 +18,7 @@ bspc config presel_feedback_color "#7c6f64"
 polybar_bars=(top bottom)
 compton &
 dunst &
-feh --bg-fill /usr/share/backgrounds/solus/LegendaryBarrels.jpg
+feh --bg-fill $XDG_CONFIG_HOME/bspwm/LegendaryBarrels.jpg
 sxhkd &
 nm-applet &
 
