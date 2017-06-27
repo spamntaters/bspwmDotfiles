@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 
-bspc monitor -d web term code videos games music irssi
+bspc monitor -d web term code music irssi
 
 bspc config border_width         3
 bspc config window_gap          24

@@ -104,12 +104,10 @@ animation-charging-framerate = 750
 type = internal/bspwm
 
 ws-icon-0 = term;
-ws-icon-1 = web;
+ws-icon-1 = web;
 ws-icon-2 = code;
 ws-icon-3 = music;
 ws-icon-4 = irssi;
-ws-icon-5 = games;
-ws-icon-6 = videos;
 ws-icon-default = 
 
 format = <label-state> <label-mode>
