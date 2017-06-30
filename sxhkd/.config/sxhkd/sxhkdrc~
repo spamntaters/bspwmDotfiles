@@ -45,7 +45,7 @@ alt + shift + e
 	xdotool search --name ".*Enpass" windowmap
 
 super + l
-	$HOME/.config/sxhkd/lock.sh
+	./lock.sh
 
 #
 # state/flags

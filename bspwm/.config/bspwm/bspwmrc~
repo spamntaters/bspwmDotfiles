@@ -15,6 +15,7 @@ bspc config normal_border_color "#3c3836"
 bspc config focused_border_color "#665c54"
 bspc config presel_feedback_color "#7c6f64"
 
+polybar_bars=(top bottom)
 compton &
 dunst &
 feh --bg-fill $HOME/.config/bspwm/LegendaryBarrels.jpg
@@ -22,9 +23,8 @@ sxhkd &
 nm-applet &
 
 
-polybar_bars=(top bottom)
 if xrandr | grep -q "HDMI-1 connected"; then
-  polybar_bars+=(external_top external_bottom)
+  polybar_bars+=(external_bottom)
 fi
 for bar in ${polybar_bars[@]}; do
 	polybar $bar &
