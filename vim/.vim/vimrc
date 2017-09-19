@@ -7,5 +7,3 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-pandoc/vim-pandoc'
 call plug#end()
 
-colorscheme gruvbox
-set background=dark
