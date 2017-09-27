@@ -7,3 +7,5 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-pandoc/vim-pandoc'
 call plug#end()
 
+set tabstop=4
+set nu
