@@ -55,8 +55,10 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
-
+#source $ZSH/oh-my-zsh.sh
+fpath=( "$HOME/.zfunctions" $fpath )
+autoload -U promptinit; promptinit
+prompt pure
 # User configuration
 source /home/spamntaters/.rvm/scripts/rvm
 
